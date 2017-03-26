@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+background-color: #f2f2f2;
+margin: 0;
+font-family: 'Lato', sans-serif;
+}
+
+* {
+  outline: 1px dotted yellow;
+}
+
+.header {
+  background-color: #2D2F3B;
+  height: 90px;
+  border-bottom: 6px solid #323746;
+}
+
+.nav {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.logo {
+  float: left;
+  font-size: 1.4rem;
+  margin-top: 35px;
+}
+
+.links {
+  float: right;
+  margin-top: 40px;
+  font-size: .75rem;
+  color: #4B4E61;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.salmon {
+  color: #F16065;
+}
+
+.banner {
+  background-color: #F16C65;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 960px;
+}
+
+.services {
+  max-width: 960px;
+  margin: auto;
+}
+
+.serviceText {
+  max-width: 960px;
+  margin: auto;
+}
+
+.ourServicesTop {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customDesign {
+  float: left;
+}
+
+.inovativeIdeas {
+  float: left;
+}
+
+.love {
+  float: left;
+}
+
+.ourServicesBottom {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsiveLayout {
+  float: left;
+}
+
+.twentyfour {
+  float: left;
+}
+
+.feelLikeAStar {
+  float: left;
+}
+
+.photos {
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+float:left;
+background-color: #2d2f3b;
+}
+
+.header {
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+float: left;
+color: white;
+background-color: #2d2f3b;
+}
+
+.aboutUs {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.profiles {
+  float: left;
+}
+
+.quote {
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  background-color: #f16c65;
+  color: white;
+}
+
+.fields {
+  float: left;
+}
+
+.contact {
+  float: right;
+}
+
+.end {
+  float: left;
+  color: white;
+  background-color: #2d2f3b;
+}
+
+.endImage {
+float: right; 
+}
+
+
+@media screen and (max-width: 610px) {
+  .logo {
+    float: none;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  .links {
+    float: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+
+}
